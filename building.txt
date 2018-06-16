@@ -1,1 +1,2 @@
-Simple build is: mvn jar:jar
+Simple build is: 
+mvn package -DskipTests
