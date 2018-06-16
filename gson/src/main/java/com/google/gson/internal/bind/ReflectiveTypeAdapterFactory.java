@@ -41,6 +41,7 @@ import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
+import org.apache.commons.collections4.map.HashedMap;
 
 /**
  * Type adapter that reflects over the fields and methods of a class.
@@ -142,7 +143,7 @@ public final class ReflectiveTypeAdapterFactory implements TypeAdapterFactory {
   }
 
   private Map<String, BoundField> getBoundFields(Gson context, TypeToken<?> type, Class<?> raw) {
-    Map<String, BoundField> result = new LinkedHashMap<String, BoundField>();
+    Map<String, BoundField> result = new HashedMap<String, BoundField>();
     if (raw.isInterface()) {
       return result;
     }

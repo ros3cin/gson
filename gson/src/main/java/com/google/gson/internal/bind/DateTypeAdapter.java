@@ -37,6 +37,8 @@ import java.util.Date;
 import java.util.List;
 import java.util.Locale;
 
+import org.eclipse.collections.impl.list.mutable.FastList;
+
 /**
  * Adapter for Date. Although this class appears stateless, it is not.
  * DateFormat captures its time zone and locale when it is created, which gives
@@ -55,7 +57,7 @@ public final class DateTypeAdapter extends TypeAdapter<Date> {
    * List of 1 or more different date formats used for de-serialization attempts.
    * The first of them (default US format) is used for serialization as well.
    */
-  private final List<DateFormat> dateFormats = new ArrayList<DateFormat>();
+  private final List<DateFormat> dateFormats = new FastList<DateFormat>();
 
   public DateTypeAdapter() {
     dateFormats.add(DateFormat.getDateTimeInstance(DateFormat.DEFAULT, DateFormat.DEFAULT, Locale.US));

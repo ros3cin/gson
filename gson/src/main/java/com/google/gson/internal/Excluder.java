@@ -33,6 +33,7 @@ import java.lang.reflect.Modifier;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
+import org.apache.commons.collections4.list.NodeCachingLinkedList;
 
 /**
  * This class selects which fields and types to omit. It is configurable,
@@ -55,8 +56,8 @@ public final class Excluder implements TypeAdapterFactory, Cloneable {
   private int modifiers = Modifier.TRANSIENT | Modifier.STATIC;
   private boolean serializeInnerClasses = true;
   private boolean requireExpose;
-  private List<ExclusionStrategy> serializationStrategies = Collections.emptyList();
-  private List<ExclusionStrategy> deserializationStrategies = Collections.emptyList();
+  private List<ExclusionStrategy> serializationStrategies = new NodeCachingLinkedList<ExclusionStrategy>();
+  private List<ExclusionStrategy> deserializationStrategies = new NodeCachingLinkedList<ExclusionStrategy>();
 
   @Override protected Excluder clone() {
     try {
@@ -97,12 +98,12 @@ public final class Excluder implements TypeAdapterFactory, Cloneable {
       boolean serialization, boolean deserialization) {
     Excluder result = clone();
     if (serialization) {
-      result.serializationStrategies = new ArrayList<ExclusionStrategy>(serializationStrategies);
+      result.serializationStrategies = new NodeCachingLinkedList<ExclusionStrategy>(serializationStrategies);
       result.serializationStrategies.add(exclusionStrategy);
     }
     if (deserialization) {
       result.deserializationStrategies
-          = new ArrayList<ExclusionStrategy>(deserializationStrategies);
+          = new NodeCachingLinkedList<ExclusionStrategy>(deserializationStrategies);
       result.deserializationStrategies.add(exclusionStrategy);
     }
     return result;

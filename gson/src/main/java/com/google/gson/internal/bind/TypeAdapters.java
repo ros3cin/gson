@@ -57,6 +57,9 @@ import com.google.gson.stream.JsonReader;
 import com.google.gson.stream.JsonToken;
 import com.google.gson.stream.JsonWriter;
 
+import org.apache.commons.collections4.list.NodeCachingLinkedList;
+import org.apache.commons.collections4.map.HashedMap;
+
 /**
  * Type adapters for basic types.
  */
@@ -264,7 +267,7 @@ public final class TypeAdapters {
 
   public static final TypeAdapter<AtomicIntegerArray> ATOMIC_INTEGER_ARRAY = new TypeAdapter<AtomicIntegerArray>() {
     @Override public AtomicIntegerArray read(JsonReader in) throws IOException {
-        List<Integer> list = new ArrayList<Integer>();
+        List<Integer> list = new NodeCachingLinkedList<Integer>();
         in.beginArray();
         while (in.hasNext()) {
           try {
@@ -771,8 +774,8 @@ public final class TypeAdapters {
       = newTypeHierarchyFactory(JsonElement.class, JSON_ELEMENT);
 
   private static final class EnumTypeAdapter<T extends Enum<T>> extends TypeAdapter<T> {
-    private final Map<String, T> nameToConstant = new HashMap<String, T>();
-    private final Map<T, String> constantToName = new HashMap<T, String>();
+    private final Map<String, T> nameToConstant = new HashedMap<String, T>();
+    private final Map<T, String> constantToName = new HashedMap<T, String>();
 
     public EnumTypeAdapter(Class<T> classOfT) {
       try {

@@ -35,6 +35,7 @@ import java.util.IdentityHashMap;
 import java.util.LinkedList;
 import java.util.Map;
 import java.util.Queue;
+import org.apache.commons.collections4.map.HashedMap;
 
 /**
  * Writes a graph of objects as a list of named nodes.
@@ -46,7 +47,7 @@ public final class GraphAdapterBuilder {
   private final ConstructorConstructor constructorConstructor;
 
   public GraphAdapterBuilder() {
-      this.instanceCreators = new HashMap<Type, InstanceCreator<?>>();
+      this.instanceCreators = new HashedMap<Type, InstanceCreator<?>>();
       this.constructorConstructor = new ConstructorConstructor(instanceCreators);
   }
   public GraphAdapterBuilder addType(Type type) {

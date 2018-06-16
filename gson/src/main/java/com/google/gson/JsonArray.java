@@ -21,6 +21,7 @@ import java.math.BigInteger;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
+import org.eclipse.collections.impl.list.mutable.FastList;
 
 /**
  * A class representing an array type in Json. An array is a list of {@link JsonElement}s each of
@@ -37,11 +38,11 @@ public final class JsonArray extends JsonElement implements Iterable<JsonElement
    * Creates an empty JsonArray.
    */
   public JsonArray() {
-    elements = new ArrayList<JsonElement>();
+    elements = new FastList<JsonElement>();
   }
   
   public JsonArray(int capacity) {
-    elements = new ArrayList<JsonElement>(capacity);
+    elements = new FastList<JsonElement>(capacity);
   }
 
   /**

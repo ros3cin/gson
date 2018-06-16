@@ -21,6 +21,7 @@ import java.lang.reflect.Type;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.Map;
+import org.apache.commons.collections4.map.HashedMap;
 
 /**
  * Contains static utility methods pertaining to primitive types and their
@@ -42,8 +43,8 @@ public final class Primitives {
   // Sad that we can't use a BiMap. :(
 
   static {
-    Map<Class<?>, Class<?>> primToWrap = new HashMap<Class<?>, Class<?>>(16);
-    Map<Class<?>, Class<?>> wrapToPrim = new HashMap<Class<?>, Class<?>>(16);
+    Map<Class<?>, Class<?>> primToWrap = new HashedMap<Class<?>, Class<?>>(16);
+    Map<Class<?>, Class<?>> wrapToPrim = new HashedMap<Class<?>, Class<?>>(16);
 
     add(primToWrap, wrapToPrim, boolean.class, Boolean.class);
     add(primToWrap, wrapToPrim, byte.class, Byte.class);

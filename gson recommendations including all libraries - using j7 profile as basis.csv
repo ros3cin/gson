@@ -1,0 +1,22 @@
+dateFormats,Lcom/google/gson/DefaultDateTypeAdapter>,Method that uses the variable:<init>,"Changes the type to ""fastList(EclipseCollections)""",done
+list,Lcom/google/gson/Gson$5>,Method that uses the variable:read,"Changes the type to ""nodeCachingLinkedList(ApacheCommonsCollections)""",done
+threadCalls,Lcom/google/gson/Gson>,Method that uses the variable:getAdapter,"Changes the type to ""hashedMap(ApacheCommonsCollections)""",done
+typeTokenCache,Lcom/google/gson/Gson>,Method that uses the variable:getAdapter,"Changes the type to ""hashedMap(ApacheCommonsCollections)""","Wrong recommendation, this variable refers to ConcurrentHashMap, and HashedMap is not thread-safe, check what happened"
+hierarchyFactories,Lcom/google/gson/GsonBuilder>,Method that uses the variable:registerTypeHierarchyAdapter,"Changes the type to ""nodeCachingLinkedList(ApacheCommonsCollections)""",done
+factories,Lcom/google/gson/GsonBuilder>,Method that uses the variable:registerTypeAdapter,"Changes the type to ""nodeCachingLinkedList(ApacheCommonsCollections)""",done
+instanceCreators,Lcom/google/gson/GsonBuilder>,Method that uses the variable:registerTypeAdapter,"Changes the type to ""hashedMap(ApacheCommonsCollections)""",done
+elements,Lcom/google/gson/JsonArray>,Method that uses the variable:add,"Changes the type to ""fastList(EclipseCollections)""",done
+instanceCreators,Lcom/google/gson/internal/ConstructorConstructor>,Method that uses the variable:get,"Changes the type to ""hashedMap(ApacheCommonsCollections)""",done
+deserializationStrategies,Lcom/google/gson/internal/Excluder>,Method that uses the variable:withExclusionStrategy,"Changes the type to ""nodeCachingLinkedList(ApacheCommonsCollections)""",done
+serializationStrategies,Lcom/google/gson/internal/Excluder>,Method that uses the variable:withExclusionStrategy,"Changes the type to ""nodeCachingLinkedList(ApacheCommonsCollections)""",done
+WRAPPER_TO_PRIMITIVE_TYPE,Lcom/google/gson/internal/Primitives>,Method that uses the variable:unwrap,"Changes the type to ""hashedMap(ApacheCommonsCollections)""",done
+PRIMITIVE_TO_WRAPPER_TYPE,Lcom/google/gson/internal/Primitives>,Method that uses the variable:wrap,"Changes the type to ""hashedMap(ApacheCommonsCollections)""",done
+list,Lcom/google/gson/internal/bind/ArrayTypeAdapter>,Method that uses the variable:read,"Changes the type to ""nodeCachingLinkedList(ApacheCommonsCollections)""",done
+dateFormats,Lcom/google/gson/internal/bind/DateTypeAdapter>,Method that uses the variable:<init>,"Changes the type to ""fastList(EclipseCollections)""",done
+stack,Lcom/google/gson/internal/bind/JsonTreeWriter>,Method that uses the variable:peek,"Changes the type to ""treeList(ApacheCommonsCollections)""",done
+keys,Lcom/google/gson/internal/bind/MapTypeAdapterFactory$Adapter>,Method that uses the variable:write,"Changes the type to ""nodeCachingLinkedList(ApacheCommonsCollections)""",done
+values,Lcom/google/gson/internal/bind/MapTypeAdapterFactory$Adapter>,Method that uses the variable:write,"Changes the type to ""nodeCachingLinkedList(ApacheCommonsCollections)""",done
+boundFields,Lcom/google/gson/internal/bind/ReflectiveTypeAdapterFactory$Adapter>,Method that uses the variable:read,"Changes the type to ""hashedMap(ApacheCommonsCollections)""",done
+list,Lcom/google/gson/internal/bind/TypeAdapters$10>,Method that uses the variable:read,"Changes the type to ""nodeCachingLinkedList(ApacheCommonsCollections)""",done
+nameToConstant,Lcom/google/gson/internal/bind/TypeAdapters$EnumTypeAdapter>,Method that uses the variable:read,"Changes the type to ""hashedMap(ApacheCommonsCollections)""",done
+constantToName,Lcom/google/gson/internal/bind/TypeAdapters$EnumTypeAdapter>,Method that uses the variable:write,"Changes the type to ""hashedMap(ApacheCommonsCollections)""",done
