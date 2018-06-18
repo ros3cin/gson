@@ -23,6 +23,7 @@ import java.lang.reflect.Type;
 import java.util.ArrayList;
 import java.util.List;
 import org.apache.commons.collections4.list.NodeCachingLinkedList;
+import org.eclipse.collections.impl.list.mutable.FastList;
 
 import com.google.gson.Gson;
 import com.google.gson.TypeAdapter;
@@ -67,7 +68,7 @@ public final class ArrayTypeAdapter<E> extends TypeAdapter<Object> {
       return null;
     }
 
-    List<E> list = new NodeCachingLinkedList<E>();
+    List<E> list = new FastList<E>();
     in.beginArray();
     while (in.hasNext()) {
       E instance = componentTypeAdapter.read(in);

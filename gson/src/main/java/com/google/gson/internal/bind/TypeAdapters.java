@@ -58,6 +58,7 @@ import com.google.gson.stream.JsonToken;
 import com.google.gson.stream.JsonWriter;
 
 import org.apache.commons.collections4.list.NodeCachingLinkedList;
+import org.eclipse.collections.impl.list.mutable.FastList;
 import org.apache.commons.collections4.map.HashedMap;
 
 /**
@@ -267,7 +268,7 @@ public final class TypeAdapters {
 
   public static final TypeAdapter<AtomicIntegerArray> ATOMIC_INTEGER_ARRAY = new TypeAdapter<AtomicIntegerArray>() {
     @Override public AtomicIntegerArray read(JsonReader in) throws IOException {
-        List<Integer> list = new NodeCachingLinkedList<Integer>();
+        List<Integer> list = new FastList<Integer>();
         in.beginArray();
         while (in.hasNext()) {
           try {

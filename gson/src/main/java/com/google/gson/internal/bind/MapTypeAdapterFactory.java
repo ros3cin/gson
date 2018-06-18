@@ -37,6 +37,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 import org.apache.commons.collections4.list.NodeCachingLinkedList;
+import org.eclipse.collections.impl.list.mutable.FastList;
 
 /**
  * Adapts maps to either JSON objects or JSON arrays.
@@ -213,9 +214,9 @@ public final class MapTypeAdapterFactory implements TypeAdapterFactory {
       }
 
       boolean hasComplexKeys = false;
-      List<JsonElement> keys = new NodeCachingLinkedList<JsonElement>(map.size());
+      List<JsonElement> keys = new FastList<JsonElement>(map.size());
 
-      List<V> values = new NodeCachingLinkedList<V>(map.size());
+      List<V> values = new FastList<V>(map.size());
       for (Map.Entry<K, V> entry : map.entrySet()) {
         JsonElement keyElement = keyTypeAdapter.toJsonTree(entry.getKey());
         keys.add(keyElement);
