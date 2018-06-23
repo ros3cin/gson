@@ -56,8 +56,8 @@ public final class Excluder implements TypeAdapterFactory, Cloneable {
   private int modifiers = Modifier.TRANSIENT | Modifier.STATIC;
   private boolean serializeInnerClasses = true;
   private boolean requireExpose;
-  private List<ExclusionStrategy> serializationStrategies = new NodeCachingLinkedList<>();
-  private List<ExclusionStrategy> deserializationStrategies = new NodeCachingLinkedList<>();
+  private List<ExclusionStrategy> serializationStrategies = new NodeCachingLinkedList();
+  private List<ExclusionStrategy> deserializationStrategies = new NodeCachingLinkedList();
 
   @Override protected Excluder clone() {
     try {
