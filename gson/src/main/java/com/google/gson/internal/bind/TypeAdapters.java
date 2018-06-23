@@ -16,6 +16,7 @@
 
 package com.google.gson.internal.bind;
 
+import org.eclipse.collections.impl.list.mutable.FastList;
 import java.io.IOException;
 import java.math.BigDecimal;
 import java.math.BigInteger;
@@ -264,7 +265,7 @@ public final class TypeAdapters {
 
   public static final TypeAdapter<AtomicIntegerArray> ATOMIC_INTEGER_ARRAY = new TypeAdapter<AtomicIntegerArray>() {
     @Override public AtomicIntegerArray read(JsonReader in) throws IOException {
-        List<Integer> list = new ArrayList<Integer>();
+        List<Integer> list = new FastList<Integer>();
         in.beginArray();
         while (in.hasNext()) {
           try {

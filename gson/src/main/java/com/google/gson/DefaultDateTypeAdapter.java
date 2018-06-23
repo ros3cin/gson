@@ -26,6 +26,7 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 import java.util.Locale;
+import org.eclipse.collections.impl.list.mutable.FastList;
 
 import com.google.gson.internal.PreJava9DateFormatProvider;
 import com.google.gson.internal.bind.util.ISO8601Utils;
@@ -51,7 +52,7 @@ final class DefaultDateTypeAdapter extends TypeAdapter<Date> {
    * List of 1 or more different date formats used for de-serialization attempts.
    * The first of them is used for serialization as well.
    */
-  private final List<DateFormat> dateFormats = new ArrayList<DateFormat>();
+  private final List<DateFormat> dateFormats = new FastList<DateFormat>();
 
   DefaultDateTypeAdapter(Class<? extends Date> dateType) {
     this.dateType = verifyDateType(dateType);
