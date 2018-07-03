@@ -1,0 +1,11 @@
+dateFormats,Lcom/google/gson/DefaultDateTypeAdapter>,Method that uses the variable:<init>,"Changes the type to ""fastList(EclipseCollections)""",done
+list,Lcom/google/gson/Gson$5>,Method that uses the variable:read,"Changes the type to ""fastList(EclipseCollections)""",done
+factories,Lcom/google/gson/GsonBuilder>,Method that uses the variable:registerTypeAdapter,"Changes the type to ""nodeCachingLinkedList(ApacheCommonsCollections)""","Not doing, uses unbenched operation Collections.reverse"
+hierarchyFactories,Lcom/google/gson/GsonBuilder>,Method that uses the variable:registerTypeHierarchyAdapter,"Changes the type to ""nodeCachingLinkedList(ApacheCommonsCollections)""","Not doing, uses unbenched operation Collections.reverse"
+elements,Lcom/google/gson/JsonArray>,Method that uses the variable:add,"Changes the type to ""fastList(EclipseCollections)""",done
+serializationStrategies,Lcom/google/gson/internal/Excluder>,Method that uses the variable:withExclusionStrategy,"Changes the type to ""nodeCachingLinkedList(ApacheCommonsCollections)""",done
+deserializationStrategies,Lcom/google/gson/internal/Excluder>,Method that uses the variable:withExclusionStrategy,"Changes the type to ""nodeCachingLinkedList(ApacheCommonsCollections)""",done
+list,Lcom/google/gson/internal/bind/ArrayTypeAdapter>,Method that uses the variable:read,"Changes the type to ""fastList(EclipseCollections)""",done
+keys,Lcom/google/gson/internal/bind/MapTypeAdapterFactory$Adapter>,Method that uses the variable:write,"Changes the type to ""fastList(EclipseCollections)""",done
+values,Lcom/google/gson/internal/bind/MapTypeAdapterFactory$Adapter>,Method that uses the variable:write,"Changes the type to ""fastList(EclipseCollections)""",done
+list,Lcom/google/gson/internal/bind/TypeAdapters$3>,Method that uses the variable:read,"Changes the type to ""fastList(EclipseCollections)""",done

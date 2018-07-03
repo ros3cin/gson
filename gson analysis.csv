@@ -1,0 +1,182 @@
+Pacote,Concrete Type,Call Method Name,Field Name,Metodo,Line Code,Class,Ocorrencias,Into Loop,Loops Info,Inside Recursive Method
+java/util/Map,Ljava/util/Map,getAdapter,typeTokenCache,iterator,433,Lcom/google/gson/Gson>,27,false,,false
+java/util/Map,Ljava/util/Map,getAdapter,threadCalls,iterator,447,Lcom/google/gson/Gson>,27,false,,false
+java/util/Map,Ljava/util/Map,getAdapter,threadCalls,put(key;value),454,Lcom/google/gson/Gson>,27,false,,false
+java/util/List,Ljava/util/List,getAdapter,factories,iterator,456,Lcom/google/gson/Gson>,27,false,,false
+java/util/Map,Ljava/util/Map,getAdapter,typeTokenCache,put(key;value),460,Lcom/google/gson/Gson>,27,false,,false
+java/util/Map,Ljava/util/Map,getAdapter,threadCalls,remove(key),466,Lcom/google/gson/Gson>,54,false,,false
+java/util/Map,Ljava/util/Map,get,instanceCreators,iterator,64,Lcom/google/gson/internal/ConstructorConstructor>,7,false,,false
+java/util/Map,Ljava/util/Map,get,instanceCreators,iterator,75,Lcom/google/gson/internal/ConstructorConstructor>,7,false,,false
+java/util/List,Ljava/util/ArrayList,read,list,add(value),73,Lcom/google/gson/internal/bind/ArrayTypeAdapter>,1,true,1) 1;O1;0; ,false
+java/util/List,Ljava/util/ArrayList,read,list,size,77,Lcom/google/gson/internal/bind/ArrayTypeAdapter>,1,false,,false
+java/util/List,Ljava/util/ArrayList,read,list,sequentialGet,80,Lcom/google/gson/internal/bind/ArrayTypeAdapter>,1,true,1) 1;ON;null; ,false
+java/util/List,Ljava/util/List,getDelegateAdapter,factories,contains,527,Lcom/google/gson/Gson>,7,false,,false
+java/util/List,Ljava/util/List,getDelegateAdapter,factories,iterator,532,Lcom/google/gson/Gson>,7,false,,false
+java/util/List,Ljava/util/List,get,stack,isEmpty,65,Lcom/google/gson/internal/bind/JsonTreeWriter>,6,false,,false
+java/util/List,Ljava/util/List,peek,stack,size,72,Lcom/google/gson/internal/bind/JsonTreeWriter>,14,false,,false
+java/util/List,Ljava/util/List,peek,stack,randomGet,72,Lcom/google/gson/internal/bind/JsonTreeWriter>,14,false,,false
+java/util/List,Ljava/util/List,put,stack,isEmpty,82,Lcom/google/gson/internal/bind/JsonTreeWriter>,10,false,,false
+java/util/List,Ljava/util/List,add,elements,add(value),108,Lcom/google/gson/JsonArray>,11,false,,false
+java/util/List,Ljava/util/List,beginArray,stack,add(value),97,Lcom/google/gson/internal/bind/JsonTreeWriter>,1,false,,false
+java/util/List,Ljava/util/List,endArray,stack,isEmpty,102,Lcom/google/gson/internal/bind/JsonTreeWriter>,1,false,,false
+java/util/List,Ljava/util/List,endArray,stack,size,107,Lcom/google/gson/internal/bind/JsonTreeWriter>,1,false,,false
+java/util/List,Ljava/util/List,endArray,stack,remove(middle-index),107,Lcom/google/gson/internal/bind/JsonTreeWriter>,1,false,,false
+java/util/List,Ljava/util/List,beginObject,stack,add(value),116,Lcom/google/gson/internal/bind/JsonTreeWriter>,1,false,,false
+java/util/List,Ljava/util/List,endObject,stack,isEmpty,121,Lcom/google/gson/internal/bind/JsonTreeWriter>,1,false,,false
+java/util/List,Ljava/util/List,endObject,stack,size,126,Lcom/google/gson/internal/bind/JsonTreeWriter>,1,false,,false
+java/util/List,Ljava/util/List,endObject,stack,remove(middle-index),126,Lcom/google/gson/internal/bind/JsonTreeWriter>,1,false,,false
+java/util/List,Ljava/util/List,name,stack,isEmpty,133,Lcom/google/gson/internal/bind/JsonTreeWriter>,1,false,,false
+java/util/List,Ljava/util/List,close,stack,isEmpty,203,Lcom/google/gson/internal/bind/JsonTreeWriter>,1,false,,false
+java/util/List,Ljava/util/List,close,stack,add(value),206,Lcom/google/gson/internal/bind/JsonTreeWriter>,1,false,,false
+java/util/List,Ljava/util/List,add,elements,add(value),108,Lcom/google/gson/JsonArray>,2,true,1) 1;O1;0; ,false
+java/util/List,Ljava/util/List,iterator,elements,iterator,182,Lcom/google/gson/JsonArray>,4,false,,false
+java/util/Set,Ljava/util/Set,write,,iterator,758,Lcom/google/gson/internal/bind/TypeAdapters$29>,2,false,,true
+java/util/List,Ljava/util/List,add,elements,add(value),108,Lcom/google/gson/JsonArray>,2,true,1) 2;O1;0; ,false
+java/util/Set,Ljava/util/Set,deepCopy,,iterator,43,Lcom/google/gson/JsonObject>,2,false,,false
+java/util/List,Ljava/util/List,<init>,dateFormats,add(value),58,Lcom/google/gson/DefaultDateTypeAdapter>,1,false,,false
+java/util/List,Ljava/util/List,<init>,dateFormats,add(value),60,Lcom/google/gson/DefaultDateTypeAdapter>,1,false,,false
+java/util/List,Ljava/util/List,<init>,dateFormats,add(value),63,Lcom/google/gson/DefaultDateTypeAdapter>,1,false,,false
+java/util/List,Ljava/util/List,<init>,dateFormats,add(value),69,Lcom/google/gson/DefaultDateTypeAdapter>,3,false,,false
+java/util/List,Ljava/util/List,<init>,dateFormats,add(value),71,Lcom/google/gson/DefaultDateTypeAdapter>,3,false,,false
+java/util/List,Ljava/util/List,<init>,dateFormats,add(value),77,Lcom/google/gson/DefaultDateTypeAdapter>,1,false,,false
+java/util/List,Ljava/util/List,<init>,dateFormats,add(value),79,Lcom/google/gson/DefaultDateTypeAdapter>,1,false,,false
+java/util/List,Ljava/util/List,<init>,dateFormats,add(value),82,Lcom/google/gson/DefaultDateTypeAdapter>,1,false,,false
+java/util/List,Ljava/util/List,<init>,dateFormats,add(value),92,Lcom/google/gson/DefaultDateTypeAdapter>,4,false,,false
+java/util/List,Ljava/util/List,<init>,dateFormats,add(value),94,Lcom/google/gson/DefaultDateTypeAdapter>,4,false,,false
+java/util/List,Ljava/util/List,<init>,dateFormats,add(value),97,Lcom/google/gson/DefaultDateTypeAdapter>,4,false,,false
+java/util/List,Ljava/util/List,write,dateFormats,randomGet,117,Lcom/google/gson/DefaultDateTypeAdapter>,2,false,,false
+java/util/List,Ljava/util/List,deserializeToDate,dateFormats,iterator,143,Lcom/google/gson/DefaultDateTypeAdapter>,3,false,,false
+java/util/List,Ljava/util/List,toString,dateFormats,randomGet,158,Lcom/google/gson/DefaultDateTypeAdapter>,1,false,,false
+java/util/Set,Ljava/util/Set,beginObject,,iterator,89,Lcom/google/gson/internal/bind/JsonTreeReader>,1,false,,false
+java/util/Map,Ljava/util/Map,<init>,nameToConstant,put(key;value),785,Lcom/google/gson/internal/bind/TypeAdapters$EnumTypeAdapter>,1,true,1) 2;ON;null; 2) 2;ON;null; ,false
+java/util/Map,Ljava/util/Map,<init>,nameToConstant,put(key;value),788,Lcom/google/gson/internal/bind/TypeAdapters$EnumTypeAdapter>,1,true,1) 2;ON;null; ,false
+java/util/Map,Ljava/util/Map,<init>,constantToName,put(key;value),789,Lcom/google/gson/internal/bind/TypeAdapters$EnumTypeAdapter>,1,true,1) 2;ON;null; ,false
+java/util/Map,Ljava/util/Map,read,boundFields,iterator,218,Lcom/google/gson/internal/bind/ReflectiveTypeAdapterFactory$Adapter>,1,true,1) 1;O1;0; ,false
+java/util/Map,Ljava/util/Map,write,boundFields,values,242,Lcom/google/gson/internal/bind/ReflectiveTypeAdapterFactory$Adapter>,1,false,,false
+java/util/Collection,Ljava/util/Collection,write,,iterator,242,Lcom/google/gson/internal/bind/ReflectiveTypeAdapterFactory$Adapter>,1,false,,false
+java/util/List,Ljava/util/List,<init>,dateFormats,add(value),61,Lcom/google/gson/internal/bind/DateTypeAdapter>,2,false,,false
+java/util/List,Ljava/util/List,<init>,dateFormats,add(value),63,Lcom/google/gson/internal/bind/DateTypeAdapter>,2,false,,false
+java/util/List,Ljava/util/List,<init>,dateFormats,add(value),66,Lcom/google/gson/internal/bind/DateTypeAdapter>,2,false,,false
+java/util/Map,Ljava/util/Map,isPrimitive,PRIMITIVE_TO_WRAPPER_TYPE,containsKey,72,Lcom/google/gson/internal/Primitives>,2,false,,false
+java/util/Map,Ljava/util/Map,isWrapperType,WRAPPER_TO_PRIMITIVE_TYPE,containsKey,82,Lcom/google/gson/internal/Primitives>,1,false,,false
+java/util/Map,Ljava/util/Map,wrap,PRIMITIVE_TO_WRAPPER_TYPE,iterator,98,Lcom/google/gson/internal/Primitives>,4,false,,false
+java/util/Map,Ljava/util/Map,unwrap,WRAPPER_TO_PRIMITIVE_TYPE,iterator,115,Lcom/google/gson/internal/Primitives>,1,false,,false
+java/util/List,Ljava/util/List,excludeClassInStrategy,list,iterator,216,Lcom/google/gson/internal/Excluder>,5,false,,false
+java/util/List,Ljava/util/List,excludeField,list,isEmpty,181,Lcom/google/gson/internal/Excluder>,3,false,,false
+java/util/List,Ljava/util/List,excludeField,list,iterator,183,Lcom/google/gson/internal/Excluder>,3,false,,false
+java/util/List,Ljava/util/List,excludeClassInStrategy,list,iterator,216,Lcom/google/gson/internal/Excluder>,1,true,1) 2;ON;null; 2) 2;ON;null; ,false
+java/util/List,Ljava/util/List,excludeField,list,isEmpty,181,Lcom/google/gson/internal/Excluder>,1,true,1) 2;ON;null; 2) 2;ON;null; ,false
+java/util/List,Ljava/util/List,excludeField,list,iterator,183,Lcom/google/gson/internal/Excluder>,1,true,1) 2;ON;null; 2) 2;ON;null; ,false
+java/util/List,Ljava/util/List,getBoundFields,fieldNames,size,163,Lcom/google/gson/internal/bind/ReflectiveTypeAdapterFactory>,1,true,1) 2;ON;null; 2) 2;ON;null; ,false
+java/util/List,Ljava/util/List,getBoundFields,fieldNames,randomGet,164,Lcom/google/gson/internal/bind/ReflectiveTypeAdapterFactory>,1,true,1) 2;ON;null; 2) 2;ON;null; 3) 2;ON;null; ,false
+java/util/Map,Ljava/util/Map,isPrimitive,PRIMITIVE_TO_WRAPPER_TYPE,containsKey,72,Lcom/google/gson/internal/Primitives>,1,true,1) 2;ON;null; 2) 2;ON;null; 3) 2;ON;null; ,false
+java/util/Map,Ljava/util/Map,getAdapter,typeTokenCache,iterator,433,Lcom/google/gson/Gson>,1,true,1) 2;ON;null; 2) 2;ON;null; 3) 2;ON;null; ,false
+java/util/Map,Ljava/util/Map,getAdapter,threadCalls,iterator,447,Lcom/google/gson/Gson>,1,true,1) 2;ON;null; 2) 2;ON;null; 3) 2;ON;null; ,false
+java/util/Map,Ljava/util/Map,getAdapter,threadCalls,put(key;value),454,Lcom/google/gson/Gson>,1,true,1) 2;ON;null; 2) 2;ON;null; 3) 2;ON;null; ,false
+java/util/List,Ljava/util/List,getAdapter,factories,iterator,456,Lcom/google/gson/Gson>,1,true,1) 2;ON;null; 2) 2;ON;null; 3) 2;ON;null; ,false
+java/util/Map,Ljava/util/Map,getAdapter,typeTokenCache,put(key;value),460,Lcom/google/gson/Gson>,1,true,1) 2;ON;null; 2) 2;ON;null; 3) 2;ON;null; ,false
+java/util/Map,Ljava/util/Map,getAdapter,threadCalls,remove(key),466,Lcom/google/gson/Gson>,2,true,1) 2;ON;null; 2) 2;ON;null; 3) 2;ON;null; ,false
+java/util/List,Ljava/util/List,excludeClassInStrategy,list,iterator,216,Lcom/google/gson/internal/Excluder>,1,true,1) 1;ON;null; 2) 1;ON;null; ,false
+java/util/List,Ljava/util/List,excludeField,list,isEmpty,181,Lcom/google/gson/internal/Excluder>,1,true,1) 1;ON;null; 2) 1;ON;null; ,false
+java/util/List,Ljava/util/List,excludeField,list,iterator,183,Lcom/google/gson/internal/Excluder>,1,true,1) 1;ON;null; 2) 1;ON;null; ,false
+java/util/List,Ljava/util/List,getBoundFields,fieldNames,size,163,Lcom/google/gson/internal/bind/ReflectiveTypeAdapterFactory>,1,true,1) 1;ON;null; 2) 1;ON;null; ,false
+java/util/List,Ljava/util/List,getBoundFields,fieldNames,randomGet,164,Lcom/google/gson/internal/bind/ReflectiveTypeAdapterFactory>,1,true,1) 1;ON;null; 2) 1;ON;null; 3) 1;ON;null; ,false
+java/util/Map,Ljava/util/Map,isPrimitive,PRIMITIVE_TO_WRAPPER_TYPE,containsKey,72,Lcom/google/gson/internal/Primitives>,1,true,1) 1;ON;null; 2) 1;ON;null; 3) 1;ON;null; ,false
+java/util/Map,Ljava/util/Map,get,instanceCreators,iterator,64,Lcom/google/gson/internal/ConstructorConstructor>,1,true,1) 1;ON;null; 2) 1;ON;null; 3) 1;ON;null; ,false
+java/util/Map,Ljava/util/Map,get,instanceCreators,iterator,75,Lcom/google/gson/internal/ConstructorConstructor>,1,true,1) 1;ON;null; 2) 1;ON;null; 3) 1;ON;null; ,false
+java/util/Map,Ljava/util/Map,getAdapter,typeTokenCache,iterator,433,Lcom/google/gson/Gson>,1,true,1) 1;ON;null; 2) 1;ON;null; 3) 1;ON;null; ,false
+java/util/Map,Ljava/util/Map,getAdapter,threadCalls,iterator,447,Lcom/google/gson/Gson>,1,true,1) 1;ON;null; 2) 1;ON;null; 3) 1;ON;null; ,false
+java/util/Map,Ljava/util/Map,getAdapter,threadCalls,put(key;value),454,Lcom/google/gson/Gson>,1,true,1) 1;ON;null; 2) 1;ON;null; 3) 1;ON;null; ,false
+java/util/List,Ljava/util/List,getAdapter,factories,iterator,456,Lcom/google/gson/Gson>,1,true,1) 1;ON;null; 2) 1;ON;null; 3) 1;ON;null; ,false
+java/util/Map,Ljava/util/Map,getAdapter,typeTokenCache,put(key;value),460,Lcom/google/gson/Gson>,1,true,1) 1;ON;null; 2) 1;ON;null; 3) 1;ON;null; ,false
+java/util/Map,Ljava/util/Map,getAdapter,threadCalls,remove(key),466,Lcom/google/gson/Gson>,2,true,1) 1;ON;null; 2) 1;ON;null; 3) 1;ON;null; ,false
+java/util/Map,Ljava/util/Map,<init>,instanceCreators,putAll,116,Lcom/google/gson/GsonBuilder>,2,false,,false
+java/util/List,Ljava/util/List,<init>,factories,addAll,128,Lcom/google/gson/GsonBuilder>,2,false,,false
+java/util/List,Ljava/util/List,<init>,hierarchyFactories,addAll,129,Lcom/google/gson/GsonBuilder>,2,false,,false
+java/util/List,Ljava/util/List,deserializeToDate,dateFormats,iterator,79,Lcom/google/gson/internal/bind/DateTypeAdapter>,3,false,,false
+java/util/List,Ljava/util/List,write,dateFormats,randomGet,96,Lcom/google/gson/internal/bind/DateTypeAdapter>,2,false,,false
+java/util/List,Ljava/util/ArrayList,read,list,add(value),272,Lcom/google/gson/internal/bind/TypeAdapters$3>,1,true,1) 1;O1;0; ,false
+java/util/List,Ljava/util/ArrayList,read,list,size,278,Lcom/google/gson/internal/bind/TypeAdapters$3>,2,false,,false
+java/util/List,Ljava/util/ArrayList,read,list,sequentialGet,281,Lcom/google/gson/internal/bind/TypeAdapters$3>,1,true,1) 1;ON;null; ,false
+java/util/List,Ljava/util/ArrayList,read,list,add(value),272,Lcom/google/gson/internal/bind/TypeAdapters$3>,1,true,1) 2;O1;0; ,false
+java/util/List,Ljava/util/ArrayList,read,list,sequentialGet,281,Lcom/google/gson/internal/bind/TypeAdapters$3>,1,true,1) 2;ON;null; ,false
+java/util/Set,Ljava/util/Set,write,,iterator,206,Lcom/google/gson/internal/bind/MapTypeAdapterFactory$Adapter>,2,false,,false
+java/util/Set,Ljava/util/Set,write,,iterator,218,Lcom/google/gson/internal/bind/MapTypeAdapterFactory$Adapter>,2,false,,false
+java/util/List,Ljava/util/List,get,stack,isEmpty,65,Lcom/google/gson/internal/bind/JsonTreeWriter>,1,true,1) 1;O1;0; ,false
+java/util/List,Ljava/util/ArrayList,write,keys,add(value),220,Lcom/google/gson/internal/bind/MapTypeAdapterFactory$Adapter>,1,true,1) 1;O1;0; ,false
+java/util/List,Ljava/util/ArrayList,write,values,add(value),221,Lcom/google/gson/internal/bind/MapTypeAdapterFactory$Adapter>,1,true,1) 1;O1;0; ,false
+java/util/List,Ljava/util/ArrayList,write,keys,size,227,Lcom/google/gson/internal/bind/MapTypeAdapterFactory$Adapter>,2,false,,false
+java/util/List,Ljava/util/ArrayList,write,keys,sequentialGet,229,Lcom/google/gson/internal/bind/MapTypeAdapterFactory$Adapter>,1,true,1) 1;ON;null; ,false
+java/util/List,Ljava/util/ArrayList,write,values,sequentialGet,230,Lcom/google/gson/internal/bind/MapTypeAdapterFactory$Adapter>,1,true,1) 1;ON;null; ,false
+java/util/List,Ljava/util/ArrayList,write,keys,size,236,Lcom/google/gson/internal/bind/MapTypeAdapterFactory$Adapter>,2,false,,false
+java/util/List,Ljava/util/ArrayList,write,keys,sequentialGet,237,Lcom/google/gson/internal/bind/MapTypeAdapterFactory$Adapter>,1,true,1) 1;ON;null; ,false
+java/util/List,Ljava/util/ArrayList,write,values,sequentialGet,239,Lcom/google/gson/internal/bind/MapTypeAdapterFactory$Adapter>,1,true,1) 1;ON;null; ,false
+java/util/List,Ljava/util/List,get,stack,isEmpty,65,Lcom/google/gson/internal/bind/JsonTreeWriter>,1,true,1) 2;O1;0; ,false
+java/util/List,Ljava/util/ArrayList,write,keys,add(value),220,Lcom/google/gson/internal/bind/MapTypeAdapterFactory$Adapter>,1,true,1) 2;O1;0; ,false
+java/util/List,Ljava/util/ArrayList,write,values,add(value),221,Lcom/google/gson/internal/bind/MapTypeAdapterFactory$Adapter>,1,true,1) 2;O1;0; ,false
+java/util/List,Ljava/util/ArrayList,write,keys,sequentialGet,229,Lcom/google/gson/internal/bind/MapTypeAdapterFactory$Adapter>,1,true,1) 2;ON;null; ,false
+java/util/List,Ljava/util/ArrayList,write,values,sequentialGet,230,Lcom/google/gson/internal/bind/MapTypeAdapterFactory$Adapter>,1,true,1) 2;ON;null; ,false
+java/util/List,Ljava/util/ArrayList,write,keys,sequentialGet,237,Lcom/google/gson/internal/bind/MapTypeAdapterFactory$Adapter>,1,true,1) 2;ON;null; ,false
+java/util/List,Ljava/util/ArrayList,write,values,sequentialGet,239,Lcom/google/gson/internal/bind/MapTypeAdapterFactory$Adapter>,1,true,1) 2;ON;null; ,false
+java/util/List,Ljava/util/List,withExclusionStrategy,serializationStrategies,add(value),101,Lcom/google/gson/internal/Excluder>,1,true,1) 1;ON;null; ,false
+java/util/List,Ljava/util/List,withExclusionStrategy,deserializationStrategies,add(value),106,Lcom/google/gson/internal/Excluder>,1,true,1) 1;ON;null; ,false
+java/util/List,Ljava/util/List,withExclusionStrategy,serializationStrategies,add(value),101,Lcom/google/gson/internal/Excluder>,3,false,,false
+java/util/List,Ljava/util/List,withExclusionStrategy,deserializationStrategies,add(value),106,Lcom/google/gson/internal/Excluder>,3,false,,false
+java/util/Map,Ljava/util/Map,registerTypeAdapter,instanceCreators,put(key;value),502,Lcom/google/gson/GsonBuilder>,1,false,,false
+java/util/List,Ljava/util/List,registerTypeAdapter,factories,add(value),506,Lcom/google/gson/GsonBuilder>,1,false,,false
+java/util/List,Ljava/util/List,registerTypeAdapter,factories,add(value),509,Lcom/google/gson/GsonBuilder>,1,false,,false
+java/util/List,Ljava/util/List,registerTypeAdapterFactory,factories,add(value),523,Lcom/google/gson/GsonBuilder>,1,false,,false
+java/util/List,Ljava/util/List,registerTypeHierarchyAdapter,hierarchyFactories,add(value),547,Lcom/google/gson/GsonBuilder>,1,false,,false
+java/util/List,Ljava/util/List,registerTypeHierarchyAdapter,factories,add(value),550,Lcom/google/gson/GsonBuilder>,1,false,,false
+java/util/List,Ljava/util/List,create,factories,size,587,Lcom/google/gson/GsonBuilder>,1,false,,false
+java/util/List,Ljava/util/List,create,hierarchyFactories,size,587,Lcom/google/gson/GsonBuilder>,1,false,,false
+java/util/List,Ljava/util/List,deepCopy,elements,isEmpty,53,Lcom/google/gson/JsonArray>,2,false,,false
+java/util/List,Ljava/util/List,deepCopy,elements,size,54,Lcom/google/gson/JsonArray>,2,false,,false
+java/util/List,Ljava/util/List,deepCopy,elements,iterator,55,Lcom/google/gson/JsonArray>,2,false,,false
+java/util/List,Ljava/util/List,add,elements,add(value),69,Lcom/google/gson/JsonArray>,1,false,,false
+java/util/List,Ljava/util/List,add,elements,add(value),78,Lcom/google/gson/JsonArray>,1,false,,false
+java/util/List,Ljava/util/List,add,elements,add(value),87,Lcom/google/gson/JsonArray>,1,false,,false
+java/util/List,Ljava/util/List,add,elements,add(value),96,Lcom/google/gson/JsonArray>,1,false,,false
+java/util/List,Ljava/util/List,addAll,elements,addAll,117,Lcom/google/gson/JsonArray>,1,false,,false
+java/util/List,Ljava/util/List,set,elements,set,129,Lcom/google/gson/JsonArray>,1,false,,false
+java/util/List,Ljava/util/List,remove,elements,remove(value),140,Lcom/google/gson/JsonArray>,1,false,,false
+java/util/List,Ljava/util/List,remove,elements,remove(middle-index),153,Lcom/google/gson/JsonArray>,1,false,,false
+java/util/List,Ljava/util/List,contains,elements,contains,163,Lcom/google/gson/JsonArray>,1,false,,false
+java/util/List,Ljava/util/List,size,elements,size,172,Lcom/google/gson/JsonArray>,1,false,,false
+java/util/List,Ljava/util/List,get,elements,randomGet,194,Lcom/google/gson/JsonArray>,1,false,,false
+java/util/List,Ljava/util/List,getAsNumber,elements,size,207,Lcom/google/gson/JsonArray>,1,false,,false
+java/util/List,Ljava/util/List,getAsNumber,elements,randomGet,208,Lcom/google/gson/JsonArray>,1,false,,false
+java/util/List,Ljava/util/List,getAsString,elements,size,223,Lcom/google/gson/JsonArray>,1,false,,false
+java/util/List,Ljava/util/List,getAsString,elements,randomGet,224,Lcom/google/gson/JsonArray>,1,false,,false
+java/util/List,Ljava/util/List,getAsDouble,elements,size,239,Lcom/google/gson/JsonArray>,1,false,,false
+java/util/List,Ljava/util/List,getAsDouble,elements,randomGet,240,Lcom/google/gson/JsonArray>,1,false,,false
+java/util/List,Ljava/util/List,getAsBigDecimal,elements,size,256,Lcom/google/gson/JsonArray>,1,false,,false
+java/util/List,Ljava/util/List,getAsBigDecimal,elements,randomGet,257,Lcom/google/gson/JsonArray>,1,false,,false
+java/util/List,Ljava/util/List,getAsBigInteger,elements,size,273,Lcom/google/gson/JsonArray>,1,false,,false
+java/util/List,Ljava/util/List,getAsBigInteger,elements,randomGet,274,Lcom/google/gson/JsonArray>,1,false,,false
+java/util/List,Ljava/util/List,getAsFloat,elements,size,289,Lcom/google/gson/JsonArray>,1,false,,false
+java/util/List,Ljava/util/List,getAsFloat,elements,randomGet,290,Lcom/google/gson/JsonArray>,1,false,,false
+java/util/List,Ljava/util/List,getAsLong,elements,size,305,Lcom/google/gson/JsonArray>,1,false,,false
+java/util/List,Ljava/util/List,getAsLong,elements,randomGet,306,Lcom/google/gson/JsonArray>,1,false,,false
+java/util/List,Ljava/util/List,getAsInt,elements,size,321,Lcom/google/gson/JsonArray>,1,false,,false
+java/util/List,Ljava/util/List,getAsInt,elements,randomGet,322,Lcom/google/gson/JsonArray>,1,false,,false
+java/util/List,Ljava/util/List,getAsByte,elements,size,329,Lcom/google/gson/JsonArray>,1,false,,false
+java/util/List,Ljava/util/List,getAsByte,elements,randomGet,330,Lcom/google/gson/JsonArray>,1,false,,false
+java/util/List,Ljava/util/List,getAsCharacter,elements,size,337,Lcom/google/gson/JsonArray>,1,false,,false
+java/util/List,Ljava/util/List,getAsCharacter,elements,randomGet,338,Lcom/google/gson/JsonArray>,1,false,,false
+java/util/List,Ljava/util/List,getAsShort,elements,size,353,Lcom/google/gson/JsonArray>,1,false,,false
+java/util/List,Ljava/util/List,getAsShort,elements,randomGet,354,Lcom/google/gson/JsonArray>,1,false,,false
+java/util/List,Ljava/util/List,getAsBoolean,elements,size,369,Lcom/google/gson/JsonArray>,1,false,,false
+java/util/List,Ljava/util/List,getAsBoolean,elements,randomGet,370,Lcom/google/gson/JsonArray>,1,false,,false
+java/util/List,Ljava/util/List,equals,elements,equals,377,Lcom/google/gson/JsonArray>,1,false,,false
+java/util/List,Ljava/util/List,hashCode,elements,hashCode,382,Lcom/google/gson/JsonArray>,1,false,,false
+java/util/List,Ljava/util/ArrayList,read,list,add(value),412,Lcom/google/gson/Gson$5>,1,true,1) 1;O1;0; ,false
+java/util/List,Ljava/util/ArrayList,read,list,size,415,Lcom/google/gson/Gson$5>,2,false,,false
+java/util/List,Ljava/util/ArrayList,read,list,sequentialGet,418,Lcom/google/gson/Gson$5>,1,true,1) 1;ON;null; ,false
+java/util/List,Ljava/util/ArrayList,read,list,add(value),412,Lcom/google/gson/Gson$5>,1,true,1) 2;O1;0; ,false
+java/util/List,Ljava/util/ArrayList,read,list,sequentialGet,418,Lcom/google/gson/Gson$5>,1,true,1) 2;ON;null; ,false
+java/util/Map,Ljava/util/Map,<init>,nameToConstant,put(key;value),785,Lcom/google/gson/internal/bind/TypeAdapters$EnumTypeAdapter>,1,true,1) 1;ON;null; 2) 1;ON;null; ,false
+java/util/Map,Ljava/util/Map,<init>,nameToConstant,put(key;value),788,Lcom/google/gson/internal/bind/TypeAdapters$EnumTypeAdapter>,1,true,1) 1;ON;null; ,false
+java/util/Map,Ljava/util/Map,<init>,constantToName,put(key;value),789,Lcom/google/gson/internal/bind/TypeAdapters$EnumTypeAdapter>,1,true,1) 1;ON;null; ,false
+java/util/Map,Ljava/util/Map,read,nameToConstant,iterator,800,Lcom/google/gson/internal/bind/TypeAdapters$EnumTypeAdapter>,2,false,,false
+java/util/Map,Ljava/util/Map,write,constantToName,iterator,804,Lcom/google/gson/internal/bind/TypeAdapters$EnumTypeAdapter>,2,false,,false
